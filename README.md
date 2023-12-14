@@ -25,15 +25,17 @@
 ### 무드등 제어
 ![Langauge:C++](https://img.shields.io/badge/Language-C++-red) ![platform:Arduino](https://img.shields.io/badge/Platform-Arduino-red)
 * 3색 LED 모듈과 turnOnOffLights 메서드를 사용하여 외출 시 혹은 외출 하지 않을 시의 기능 구현
-* 블루투스 모듈(hm10)과 앱을 연동하여 문자(무드등: a,b)입력에 따른 무드등 제어 구현
+* 블루투스 모듈(hm10)과 앱을 연동하여 원격으로 무드등 제어 구현
 ### 스마트 주차장
 ![Langauge:C++](https://img.shields.io/badge/Language-C++-red) ![platform:Arduino](https://img.shields.io/badge/Platform-Arduino-red)
 * 서보모터 및 초음파 센서, LCD를 활용하여 감지거리에 따른 주차장 개폐
 * LCD를 통해 현재 차의 출입 여부 확인
 * 서보 모터에 5초간의 딜레이와 10도씩 증가를 통한 사물의 유무 확인
-### 식물 성장 감지 시스템
+* 블루투스 모듈과 앱을 연동하여 원격으로 주차장을 On/Off 할 수 있도록 구현
+### 스마트 에어컨
 ![Langauge:C++](https://img.shields.io/badge/Language-C++-red) ![platform:Arduino](https://img.shields.io/badge/Platform-Arduino-red)
-* 3색 led를 통해 식물의 성장 조건에 입각한 수분 및 습도 확인
+* MP3모듈과 LED를 활용한 에어컨 On/Off
+* 블루투스 모듈과 앱을 연동하여 원격으로 에어컨을 On/Off 할 수 있도록 함
 
 ## 결과 영상
 * https://youtu.be/mnzqHEc9V-g
